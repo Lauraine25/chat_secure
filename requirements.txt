@@ -1,0 +1,20 @@
+# Dépendances pour le système de messagerie Client-Serveur sécurisé
+
+# Chiffrement et sécurité
+cryptography>=41.0.0          # Bibliothèque pour le chiffrement AES-256
+bcrypt>=4.1.1                 # Hachage sécurisé des mots de passe
+
+# Base de données
+mysql-connector-python>=8.2.0 # Connecteur MySQL officiel
+PyMySQL>=1.1.0               # Alternative lightweight pour MySQL
+
+# Interface graphique
+# tkinter est inclus avec Python 3, pas besoin d'installation séparée
+
+# Utilitaires
+python-dotenv>=1.0.0         # Gestion des variables d'environnement
+pydantic>=2.0.0              # Validation des données
+
+# Développement et débogage (optionnel)
+pytest>=7.4.0                # Framework de test
+pytest-cov>=4.1.0            # Couverture de code pour les tests
